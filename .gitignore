@@ -1,0 +1,61 @@
+# Power BI / Power Query
+*.pbi
+*.pbix.bak
+*.pbit.bak
+
+# Power BI local/cache files
+.cache/
+*.tmp
+*.temp
+
+# Power BI deployment/local files
+bin/
+obj/
+
+# Python files (if used in your Power BI project)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+~$*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Logs
+*.log
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Credentials / configuration
+credentials.json
+secrets.json
+config.local.*
